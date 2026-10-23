@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToOffice — Установка MS Office 2021 на Linux Mint</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background-color: #0d1117;
+            color: #c9d1d9;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        header {
+            width: 100%;
+            max-width: 800px;
+            padding: 60px 20px;
+            text-align: center;
+            border-bottom: 1px solid #21262d;
+        }
+        h1 {
+            color: #f0f6fc;
+            font-size: 3rem;
+            margin-bottom: 10px;
+        }
+        .tagline {
+            font-size: 1.25rem;
+            color: #8b949e;
+            margin-bottom: 30px;
+        }
+        .btn-download {
+            display: inline-block;
+            background-color: #238636;
+            color: #ffffff;
+            padding: 12px 24px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            text-decoration: none;
+            border-radius: 6px;
+            transition: background 0.2s;
+        }
+        .btn-download:hover {
+            background-color: #2ea043;
+        }
+        main {
+            width: 100%;
+            max-width: 800px;
+            padding: 40px 20px;
+            box-sizing: border-box;
+        }
+        section {
+            margin-bottom: 40px;
+        }
+        h2 {
+            color: #f0f6fc;
+            border-bottom: 1px solid #21262d;
+            padding-bottom: 8px;
+        }
+        ul {
+            padding-left: 20px;
+            line-height: 1.6;
+        }
+        pre {
+            background-color: #161b22;
+            padding: 16px;
+            border-radius: 6px;
+            border: 1px solid #30363d;
+            overflow-x: auto;
+            color: #ff7b72;
+        }
+        code {
+            font-family: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace;
+        }
+        footer {
+            margin-top: auto;
+            padding: 40px 20px;
+            color: #8b949e;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>🚀 ToOffice</h1>
+    <p class="tagline">Эксклюзивное окружение для локального запуска десктопного Microsoft Office 2021 на Linux Mint</p>
+    <a href="https://github.com" class="btn-download">Скачать .DEB пакет</a>
+</header>
+
+<main>
+    <section>
+        <h2>📋 О проекте</h2>
+        <p>ToOffice — это легковесная open-source утилита, которая изолирует оригинальные бинарные файлы Microsoft Word 2021 и разворачивает локальную фоновую службу RPC-запросов для автоматической проверки лицензии. Больше никаких тяжелых виртуальных машин!</p>
+    </section>
+
+    <section>
+        <h2>⚡ Особенности</h2>
+        <ul>
+            <li>**Быстрый запуск:** Открытие оригинального Word 2021 прямо в графическом окружении Linux Mint.</li>
+            <li>**Автономная активация:** Встроенная фоновая Linux-служба для эмуляции RPC-сервера проверки ключей.</li>
+            <li>**Полная интеграция:** Автоматическое добавление ярлыка запуска в системное меню «Офис».</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>💻 Установка через терминал</h2>
+        <p>Если вы предпочитаете устанавливать пакеты вручную, выполните следующие команды:</p>
+        <pre><code>git clone https://github.com
+cd ToOffice
+sudo apt install ./tooffice.deb</code></pre>
+    </section>
+</main>
+
+<footer>
+    <p>© 2026 Проект ToOffice. Разработчик: damiry947. Свободное ПО под лицензией MIT.</p>
+</footer>
+
+</body>
+</html>
