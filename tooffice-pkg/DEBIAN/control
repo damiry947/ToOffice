@@ -1,0 +1,9 @@
+Package: tooffice
+Version: 1.0.0
+Section: office
+Priority: optional
+Architecture: amd64
+Depends: wine, wine64
+Maintainer: damiry947 <askerhanovdamir1@gmail.com>
+Description: ToOffice opensource utility for running MS Office 2021 on Linux Mint.
+

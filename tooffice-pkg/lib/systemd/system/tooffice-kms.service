@@ -1,0 +1,12 @@
+[Unit]
+Description=Фоновая служба лицензирования для ToOffice
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/tooffice-kms
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
+

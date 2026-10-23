@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=ToOffice (2021)
+Comment=Локальный запуск Microsoft Office 2021 со службами активации
+Exec=tooffice
+Icon=libreoffice-writer
+Terminal=false
+Categories=Office;WordProcessor;
+

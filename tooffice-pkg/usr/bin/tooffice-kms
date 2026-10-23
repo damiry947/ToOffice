@@ -1,0 +1,4 @@
+#!/bin/bash
+# Запускаем бинарник, который будет лежать в той же папке /usr/bin/
+exec /usr/bin/vlmcsd -D -p /var/run/tooffice-kms.pid
+
